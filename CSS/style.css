@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(160deg,#989eef, #f0e5ab);
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+    padding: 5px;
+}
+.escolha{
+    font-weight: 500;
+}
+
+label{
+    padding: 15px;
+
+}
+#escolhaCrip{
+    display: inline-block;
+    background-color: rgb(219, 192, 253);
+    border-radius: 15px;
+    font-size: 20px;
+    margin: -90px 0 80px 705px;
+}
+textarea{
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    border-radius: 15px;
+    width: 500px;
+    height: 100px;
+}
+.escolha1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input[type=text] {
+    width: 40%
+}
+
+input[type=number] {
+    width: 40%
+}
+
+#tipoencriptacao {
+    width: 40%;
+}
